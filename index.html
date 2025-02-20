@@ -1,37 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--Custom CSS-->
-    <link rel="stylesheet" href="./static/style.css">
+    <link rel="stylesheet" href="./static/style.css" />
 
     <!--Lato Font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <!--Roboto Font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <!--Custom JavaScript-->
     <script src="./index.js" defer></script>
 
     <!-- jQuery-->
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css"
+    />
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
 
-    <title>Swayambhu Stories</title>
-</head>
-<body>
-    <header></header>
-    <br><br>
-    <p>Roboto</p>
-    <footer></footer>
-</body>
+    <script type="text/javascript">
+      $(function () {
+        $("#dialogMsg").dialog();
+      });
+    </script>
 
+    <title>Swayambhu Stories</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="topnav">
+        <a class="active" href="#home">Swayambhu Stories</a>
+        <a href="#whoweare">Who we are</a>
+        <a href="#grants">Grants</a>
+      </div>
+    </header>
+
+    <br /><br />
+    <p>Roboto</p>
+    <form id="form1" runat="server">
+      <div id="dialogMsg" title="First JqueryUI Example">
+        Hello this is my first JqueryUI example.
+      </div>
+    </form>
+    <footer></footer>
+  </body>
 </html>
