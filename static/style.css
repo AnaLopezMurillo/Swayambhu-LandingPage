@@ -143,7 +143,7 @@ body {
   align-items: center;
 }
 
-.topnav a {
+.topnav .link {
   float: left;
   color: #000000;
   background-color: #ffffff;
@@ -165,8 +165,10 @@ body {
 
 .topnav img {
   float:left;
-  max-width: 4%;
-  padding: 5px 0px 0px 5px;
+  max-width: 3.5%;
+  /* padding: 5px 0px 0px 5px; */
+  padding: 10px;
+  padding-right: 0px;
   margin:0;
   /* align-self: center;
   width: 2%; */
