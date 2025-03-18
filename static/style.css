@@ -134,6 +134,15 @@ body {
   width: 100%;
 }
 
+.topnav {
+  float:left;
+  overflow: hidden;
+  text-align: center;
+  display:block;
+  /* flex-direction: row; */
+  align-items: center;
+}
+
 .topnav a {
   float: left;
   color: #000000;
@@ -152,6 +161,15 @@ body {
 
 .topnav .active {
   /* add orange outline to bottom here somehow */
+} 
+
+.topnav img {
+  float:left;
+  max-width: 4%;
+  padding: 5px 0px 0px 5px;
+  margin:0;
+  /* align-self: center;
+  width: 2%; */
 }
 
 .details{
