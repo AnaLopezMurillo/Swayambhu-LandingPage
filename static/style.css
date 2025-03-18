@@ -117,10 +117,18 @@ header {
 
 footer {
   height: 100px;
-  background-color: aqua;
+  width: 20vw;
+  text-align: left;
+  padding: 20px;
+  /* background-color: aqua; */
   bottom: 0;
   position: absolute;
 }
+
+footer div {
+  padding-bottom: 10px;
+}
+
 
 html{
     height: 100%;
@@ -247,3 +255,11 @@ padding: 20px;
     background-color: #04aa6d;
     color: white;
   } */
+
+footer .hero {
+  color: #C0BBBB
+}
+
+footer .sub-hero {
+  color: white;
+}
