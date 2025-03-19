@@ -138,13 +138,15 @@ body {
 }
 
 .topnav {
-  float: left;
   overflow: hidden;
   text-align: center;
-  display: block;
-  /* flex-direction: row; */
   align-items: center;
-  /* height: 100%; */
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 
 .topnav .link {
@@ -168,15 +170,35 @@ body {
   box-sizing: border-box;
 }
 
-.topnav img {
-  float: left;
+/* .topnav img {
   max-width: 3.5%;
-  /* padding: 5px 0px 0px 5px; */
+  padding: 5px 0px 0px 5px;
   padding: 8px;
   padding-right: 0px;
   margin: 0;
-  /* align-self: center;
-  width: 2%; */
+  align-self: center;
+} */
+
+.topnav .house-icon {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.pages {
+  display: flex;
+  gap: 10px;
+}
+
+.right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.setting-icon {
+  width: 30px;
+  height: auto;
 }
 
 .details {
